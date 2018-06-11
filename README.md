@@ -32,3 +32,8 @@ Welcome to Color Collector! This is a website where we curate a specific set of 
 1. Create a `CoolColorsPage` that renders on `/cool` and shows a few cool colors.
 
 1. Create a `MutedColorsPage` that renders on `/muted` and shows a few muted colors.
+
+## 🚀 Your homework submission should include:
+
+- A pull request created on _this repo_.
+- This homework is due 🚨 11PM TONIGHT 6/11 🚨
