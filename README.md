@@ -1,4 +1,4 @@
-# React Router Lab
+# React Router Homework
 
 ## Prerequisites
 
