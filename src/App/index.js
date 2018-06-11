@@ -1,23 +1,20 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./style.css";
+import Color from "../Color";
+import Homepage from "../Homepage";
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Color Collector</h1>
-        <div class="colors-container">
-          <div className="color" style={{backgroundColor: '#E5D352'}}>
-            <div>Sandstorm</div>
-          </div>
-          <div className="color" style={{backgroundColor: '#7AE7C7'}}>
-            Peal Aqua
-          </div>
-          <div className="color" style={{backgroundColor: '#DB5461'}}>
-            Dark Terra Cotta
-          </div>
+      <Router>
+      <div className = "App">
+      <nav>
+            <Homepage />
+        </nav>
         </div>
-      </div>
+        </Router>
     );
   }
 }

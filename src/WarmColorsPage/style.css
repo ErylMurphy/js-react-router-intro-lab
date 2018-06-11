@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App {
+  margin-top: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.App h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.App .colors-container {
+  display: flex;
+}
+
+.App .color {
+  width: 33.333%;
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+}
