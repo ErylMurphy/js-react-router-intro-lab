@@ -9,9 +9,9 @@ class Homepage extends Component {
   render() {
     return (
       <div className = "Homepage">
-      <Link to="/warm">Warm Colors</Link>
-      <Link to="/cool">Cool Colors</Link>
-      <Link to="/muted">Muted Colors</Link>
+      <h1><Link to="/warm">Warm Colors</Link></h1>
+      <h1><Link to="/cool">Cool Colors</Link></h1>
+      <h1><Link to="/muted">Muted Colors</Link></h1>
 
       <Route path="/warm" exact component={WarmColorsPage} />
       <Route path="/cool" exact component={CoolColorsPage} />

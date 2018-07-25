@@ -8,7 +8,7 @@ import Homepage from "../Homepage";
 class App extends Component {
   render() {
     return (
-      <Router>
+        <Router>
       <div className = "App">
       <nav>
             <Homepage />
